@@ -1,0 +1,9 @@
+AURORA OFFICE RENOVATION — RISK REGISTER
+
+R-01: Long-lead HVAC equipment could delay MEP installation. Probability Medium, Impact High. Mitigation: release procurement packages early and track supplier milestones weekly. Owner: Procurement Manager.
+
+R-02: Late architectural changes may require rework. Probability Medium, Impact Medium. Mitigation: freeze major design decisions before procurement. Owner: Design Manager.
+
+R-03: MEP coordination conflicts may delay ceiling closure. Probability High, Impact High. Mitigation: hold weekly coordination reviews and resolve clashes before installation. Owner: MEP Coordinator.
+
+R-04: Inspection failures may delay commissioning. Probability Low, Impact High. Mitigation: complete pre-inspection checklists and corrective actions before formal inspection. Owner: QA/QC Manager.

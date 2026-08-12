@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>DocuMind AI</title><link rel="stylesheet" href="/static/css/style.css"></head>
+<body>
+<aside>
+<div class="brand">DocuMind <b>AI</b></div><p class="sub">DOCUMENT INTELLIGENCE</p>
+<div class="status"><span class="dot"></span><span id="health">Checking system…</span></div>
+<div class="side-card"><h3>Knowledge Base</h3><div class="stats"><div><strong id="docs">0</strong><span>Documents</span></div><div><strong id="chunks">0</strong><span>Chunks</span></div></div></div>
+<div class="side-card"><h3>Add documents</h3><input id="files" type="file" multiple accept=".pdf,.docx,.txt,.md"><button onclick="upload()">INDEX DOCUMENTS</button><p class="hint">PDF · DOCX · TXT · MD</p></div>
+<div class="pipeline"><div>01 <span>Extract</span></div><div>02 <span>Chunk</span></div><div>03 <span>Embed</span></div><div>04 <span>Retrieve</span></div><div>05 <span>Generate</span></div></div>
+</aside>
+<main>
+<header><div><p class="eyebrow">RAG KNOWLEDGE WORKSPACE</p><h1>Ask your documents.</h1></div><div class="badge" id="llm">LLM STATUS</div></header>
+<section id="chat" class="chat"><div class="welcome"><div class="icon">✦</div><h2>Document intelligence, grounded in your files.</h2><p>Upload project documents and ask questions. Answers are generated from semantically retrieved passages and include source references.</p><div class="suggestions"><button onclick="suggest('What are the major project risks?')">What are the major project risks?</button><button onclick="suggest('Who owns MEP coordination?')">Who owns MEP coordination?</button><button onclick="suggest('What are the project schedule phases?')">What are the schedule phases?</button></div></div></section>
+<form class="composer" onsubmit="ask(event)"><input id="question" autocomplete="off" placeholder="Ask a question about your documents…"><button type="submit">ASK ↗</button></form>
+<div id="message" class="message"></div>
+</main><script src="/static/js/app.js"></script></body></html>

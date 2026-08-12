@@ -1,0 +1,8 @@
+Flask==3.1.1
+python-dotenv==1.1.1
+numpy==2.2.6
+faiss-cpu==1.11.0
+sentence-transformers==4.1.0
+pypdf==5.6.1
+python-docx==1.1.2
+openai==1.93.0
